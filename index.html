@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colors.css">
+    <title>Lists</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="alex.jpg" alt="Александр Иванов" class="avatar">
+
+            <div class="info-text">
+
+                <h1>Александр Иванов</h1>
+
+                <p>Я ведущий специалист в <strong>МКУ ЦБ ГО Чехов</strong> и главный инспектор в <strong>Управлении финансов Администрации ГО Чехов</strong></p>
+            
+                <p>Я люблю <em>путешествовать, играть на гитаре и кататься на велосипеде</em></p>
+            
+                <h4>Список социальных сетей:</h4>
+            
+                <a href="https://vk.com/id21543242" target="_blank">ВКонтакте</a>
+                |
+                <a href="https://t.me/reekoxela" target="_blank">Telegram</a>
+            </div>
+        </div>
+        
+        <div class="card bg-green">
+            <h2>Мои хобби</h2>
+
+            <ul class="list">
+                <li>Игра на гитаре</li>
+                <li>Путешествия</li>
+                <li>Кататься на велосипеде</li>
+                <li>Чтение</li>
+            </ul>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Наименование</th>
+                        <th>Должность</th>
+                        <th>Период</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>ОАО "РЖД"</td>
+                        <td>Инженер 1-категории</td>
+                        <td>2015-2018</td>
+                    </tr>
+                    <tr>
+                        <td>МКУ ЦБ сферы образования</td>
+                        <td>Ведущий специалист</td>
+                        <td>2018-2021</td>
+                    </tr>
+                    <tr>
+                        <td>МКУ ЦБ ГО Чехов</td>
+                        <td>Ведущий специалист</td>
+                        <td>2021-наст. время</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        
+        <form action="/" class="form">
+
+            <h2>Связаться со мной</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш e-mail</label>
+                    <input type="email" id="email" placeholder="e-mail">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение</label>
+                <br>
+                <textarea id="message" cols="50" rows="10" placeholder="Введите сообщение"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Отправить!</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
